@@ -1,41 +1,42 @@
-MagicFridgeAI
+# MagicFridgeAI
 
-📌 Sobre o Projeto
+## 📌 Sobre o Projeto
 
-O MagicFridgeAI é uma aplicação de geladeira inteligente desenvolvida em Java com Spring Boot.
+O **MagicFridgeAI** é uma aplicação de geladeira inteligente desenvolvida em Java com Spring Boot.
 
 O objetivo do projeto é permitir que o usuário cadastre os ingredientes disponíveis em sua geladeira e utilize Inteligência Artificial para gerar receitas automaticamente com base nesses ingredientes.
 
-⸻
+---
 
-🚀 Funcionalidades
+## 🚀 Funcionalidades
 
-* ✅ Cadastro de alimentos
-* ✅ Listagem de ingredientes
-* ✅ Busca de alimentos por ID
-* ✅ Atualização de itens
-* ✅ Remoção de alimentos
-* 🤖 Geração de receitas utilizando IA
-* 🌐 API RESTful
+- ✅ Cadastro de alimentos
+- ✅ Listagem de ingredientes
+- ✅ Busca de alimentos por ID
+- ✅ Atualização de itens
+- ✅ Remoção de alimentos
+- 🤖 Geração de receitas utilizando IA
+- 🌐 API RESTful
 
-⸻
+---
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-* Java 21
-* Spring Boot
-* Spring Web
-* Spring Data JPA
-* Hibernate
-* Maven
-* Lombok
-* Banco de Dados SQL
-* Inteligência Artificial
+- Java 21
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Hibernate
+- Maven
+- Lombok
+- Banco de Dados SQL
+- Inteligência Artificial
 
-⸻
+---
 
-📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
+```bash
 src
  ┣ main
  ┃ ┣ java
@@ -46,74 +47,3 @@ src
  ┃ ┃ ┗ service
  ┃ ┗ resources
  ┗ test
-
-⸻
-
-🔥 Endpoints da API
-
-Criar alimento
-
-POST /food
-
-Listar alimentos
-
-GET /food
-
-Buscar alimento por ID
-
-GET /food/{id}
-
-Atualizar alimento
-
-PUT /food/{id}
-
-Deletar alimento
-
-DELETE /food/{id}
-
-⸻
-
-📦 Exemplo de JSON
-
-{
-  "name": "Tomate",
-  "categoria": "Legume",
-  "quantidade": 5,
-  "validade": "2026-06-10"
-}
-
-⸻
-
-▶️ Como Executar o Projeto
-
-Clonar o repositório
-
-git clone https://github.com/Marquin25/MagicFridgeAI.git
-
-Entrar na pasta do projeto
-
-cd MagicFridgeAI
-
-Executar o projeto
-
-./mvnw spring-boot:run
-
-Ou execute diretamente pela IDE.
-
-⸻
-
-📈 Futuras Melhorias
-
-* Integração com API de IA
-* Sistema de autenticação
-* Interface Web
-* Dashboard da geladeira
-* Upload de imagens de alimentos
-* Sugestões inteligentes de receitas
-* Controle de validade dos produtos
-
-⸻
-
-👨‍💻 Autor
-
-Desenvolvido por Marcus Antônio Rodrigues Monteiro Rios de Pina.
