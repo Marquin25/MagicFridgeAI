@@ -47,3 +47,93 @@ src
  ┃ ┃ ┗ service
  ┃ ┗ resources
  ┗ test
+```
+
+---
+
+## 🔥 Endpoints da API
+
+### Criar alimento
+
+```http
+POST /food
+```
+
+### Listar alimentos
+
+```http
+GET /food
+```
+
+### Buscar alimento por ID
+
+```http
+GET /food/{id}
+```
+
+### Atualizar alimento
+
+```http
+PUT /food/{id}
+```
+
+### Deletar alimento
+
+```http
+DELETE /food/{id}
+```
+
+---
+
+## 📦 Exemplo de JSON
+
+```json
+{
+  "name": "Tomate",
+  "categoria": "Legume",
+  "quantidade": 5,
+  "validade": "2026-06-10"
+}
+```
+
+---
+
+## ▶️ Como Executar o Projeto
+
+### Clonar o repositório
+
+```bash
+git clone https://github.com/Marquin25/MagicFridgeAI.git
+```
+
+### Entrar na pasta do projeto
+
+```bash
+cd MagicFridgeAI
+```
+
+### Executar o projeto
+
+```bash
+./mvnw spring-boot:run
+```
+
+Ou execute diretamente pela IDE.
+
+---
+
+## 📈 Futuras Melhorias
+
+- Integração com API de IA
+- Sistema de autenticação
+- Interface Web
+- Dashboard da geladeira
+- Upload de imagens de alimentos
+- Sugestões inteligentes de receitas
+- Controle de validade dos produtos
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por Marcus Antônio Rodrigues Monteiro Rios de Pina.
