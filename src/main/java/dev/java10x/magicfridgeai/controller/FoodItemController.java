@@ -52,8 +52,17 @@ public class FoodItemController {
     }
 
     //UPDATE
+    @PutMapping("/{id}")
+    public ResponseEntity<FoodItem> atualizar(@RequestBody FoodItem foodItem,
+                                              @PathVariable Long id) {
+        FoodItem atualizado = service.alterar(id, foodItem);
+        if (atualizado == null) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(atualizado);
+    }
 
-    // DELETE
+    //DELETE
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deletar(@PathVariable Long id) {
         boolean deletado = service.deletar(id);
